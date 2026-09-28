@@ -1,0 +1,29 @@
+{
+  "name": "@app/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "counts:sample": "node scripts/generate-sample-counts.js",
+    "dev": "node --watch src/index.js",
+    "start": "node src/index.js",
+    "data:download": "python3 scripts/download-open-data.py",
+    "import:stations": "node scripts/import-kgis-stations.js",
+    "import:layers": "node scripts/import-layers.js",
+    "import:city-counts": "node scripts/import-city-counts.js",
+    "import:counts": "node scripts/import-station-counts.js"
+  },
+  "dependencies": {
+    "@app/shared": "*",
+    "@turf/boolean-point-in-polygon": "^7.4.0",
+    "compression": "^1.8.2",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@turf/helpers": "^7.4.0",
+    "@turf/point-on-feature": "^7.4.0",
+    "@turf/simplify": "^7.4.0"
+  }
+}

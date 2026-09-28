@@ -1,0 +1,96 @@
+{
+ "meta": {
+  "area": "Bengaluru City (police commissionerate)",
+  "importedAt": "2026-09-28T12:25:12.945Z",
+  "sources": [
+   {
+    "publisher": "Bengaluru City Police",
+    "dataset": "Bengaluru Crime Data - 2023",
+    "table": "Bengaluru Crimes Against Women 2023",
+    "url": "https://data.opencity.in/dataset/bengaluru-crime-data-2023",
+    "years": [
+     2021,
+     2022,
+     2023
+    ]
+   },
+   {
+    "publisher": "Karnataka State Police",
+    "dataset": "Karnataka - Crime Data 2024",
+    "table": "District-wise IPC Crimes in Karnataka - 2024",
+    "url": "https://data.opencity.in/dataset/karnataka-crime-data-2024",
+    "years": [
+     2024
+    ]
+   }
+  ]
+ },
+ "rows": [
+  {
+   "year": 2021,
+   "type": "molestation",
+   "count": 573,
+   "source": 0
+  },
+  {
+   "year": 2021,
+   "type": "insult_to_modesty",
+   "count": 19,
+   "source": 0
+  },
+  {
+   "year": 2021,
+   "type": "rape",
+   "count": 116,
+   "source": 0
+  },
+  {
+   "year": 2022,
+   "type": "molestation",
+   "count": 731,
+   "source": 0
+  },
+  {
+   "year": 2022,
+   "type": "insult_to_modesty",
+   "count": 29,
+   "source": 0
+  },
+  {
+   "year": 2022,
+   "type": "rape",
+   "count": 152,
+   "source": 0
+  },
+  {
+   "year": 2023,
+   "type": "molestation",
+   "count": 1135,
+   "source": 0
+  },
+  {
+   "year": 2023,
+   "type": "insult_to_modesty",
+   "count": 60,
+   "source": 0
+  },
+  {
+   "year": 2023,
+   "type": "rape",
+   "count": 176,
+   "source": 0
+  },
+  {
+   "year": 2024,
+   "type": "molestation",
+   "count": 1251,
+   "source": 1
+  },
+  {
+   "year": 2024,
+   "type": "rape",
+   "count": 167,
+   "source": 1
+  }
+ ]
+}

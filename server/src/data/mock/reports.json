@@ -1,0 +1,37 @@
+[
+  {
+    "id": "rep-seed-1",
+    "lat": 12.9345,
+    "lng": 77.6265,
+    "category": "poor_lighting",
+    "note": "Streetlights out along the stretch near the park.",
+    "status": "approved",
+    "createdAt": "2024-06-02T18:30:00.000Z"
+  },
+  {
+    "id": "rep-seed-2",
+    "lat": 12.9712,
+    "lng": 77.7481,
+    "category": "isolated",
+    "note": "Long walk to the bus stop with no shops open after 9pm.",
+    "status": "approved",
+    "createdAt": "2024-07-15T20:10:00.000Z"
+  },
+  {
+    "id": "rep-seed-3",
+    "lat": 12.9771,
+    "lng": 77.6051,
+    "category": "harassment_spot",
+    "status": "approved",
+    "createdAt": "2024-08-21T16:45:00.000Z"
+  },
+  {
+    "id": "rep-seed-4",
+    "lat": 13.0021,
+    "lng": 77.5722,
+    "category": "poor_lighting",
+    "note": "Awaiting moderation, must NOT appear in the public API.",
+    "status": "pending",
+    "createdAt": "2024-09-01T09:00:00.000Z"
+  }
+]

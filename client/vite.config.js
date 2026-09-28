@@ -1,0 +1,27 @@
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
+
+export default defineConfig({
+  plugins: [react()],
+  server: {
+    port: 5173,
+    proxy: {
+      '/api': 'http://localhost:4000',
+    },
+  },
+  worker: {
+    format: 'es',
+  },
+  build: {
+    // Map/WebGL libraries are large by nature; split them so they cache independently.
+    chunkSizeWarningLimit: 1500,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          maplibre: ['maplibre-gl', 'pmtiles', '@protomaps/basemaps'],
+          charts: ['recharts'],
+        },
+      },
+    },
+  },
+});

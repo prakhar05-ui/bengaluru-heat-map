@@ -1,0 +1,102 @@
+[
+ {
+  "id": "hospitals",
+  "group": "help",
+  "kind": "point",
+  "label": "Hospitals",
+  "minzoom": 12.5,
+  "source": {
+   "name": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  },
+  "caveat": "Community-mapped. When zoomed out, only hospitals with a recorded emergency department are shown; zoom in for all. Emergency status is only known where mapped, so call ahead or dial 112.",
+  "count": 1137,
+  "downloadedAt": "2026-09-28T12:46:47.073631+00:00"
+ },
+ {
+  "id": "health",
+  "group": "help",
+  "kind": "point",
+  "label": "Public health centres",
+  "source": {
+   "name": "BBMP / GBA via OpenCity (health centres, Namma Clinics 2026, referral hospitals)",
+   "url": "https://data.opencity.in/dataset/bengaluru-urban-public-health-centres",
+   "licence": "Public domain"
+  },
+  "caveat": "Government clinics with daytime hours; most are not emergency facilities.",
+  "count": 385,
+  "downloadedAt": "2026-09-28T12:46:47.073631+00:00"
+ },
+ {
+  "id": "metro",
+  "group": "help",
+  "kind": "point",
+  "label": "Metro stations",
+  "source": {
+   "name": "OpenStreetMap contributors",
+   "url": "https://www.openstreetmap.org/copyright",
+   "licence": "ODbL 1.0"
+  },
+  "caveat": "Operational Namma Metro stations as mapped in OpenStreetMap; proposed stations are excluded.",
+  "count": 83,
+  "downloadedAt": "2026-09-28T12:46:47.073631+00:00"
+ },
+ {
+  "id": "cctv",
+  "group": "other",
+  "kind": "point",
+  "label": "CCTV cameras",
+  "source": {
+   "name": "Citizen Matters via OpenCity (from OpenStreetMap)",
+   "url": "https://data.opencity.in/dataset/bengaluru-cctv-cameras",
+   "licence": "CC BY-NC (non-commercial)"
+  },
+  "caveat": "Crowdsourced and incomplete: an area without dots may still have cameras. Owner and working status are unknown.",
+  "count": 1541,
+  "downloadedAt": "2026-09-28T12:46:47.073631+00:00"
+ },
+ {
+  "id": "toilets",
+  "group": "other",
+  "kind": "point",
+  "label": "Public toilets",
+  "source": {
+   "name": "BBMP via OpenCity",
+   "url": "https://data.opencity.in/dataset/bengaluru-public-toilets",
+   "licence": "Not stated"
+  },
+  "caveat": "BBMP list of existing toilets; opening hours and condition are unknown.",
+  "count": 479,
+  "downloadedAt": "2026-09-28T12:46:47.073631+00:00"
+ },
+ {
+  "id": "bus-stops",
+  "group": "other",
+  "kind": "point",
+  "label": "Bus stops (BMTC)",
+  "minzoom": 13,
+  "source": {
+   "name": "BMTC / KGIS via OpenCity",
+   "url": "https://data.opencity.in/dataset/bengaluru-bus-stops-and-routes",
+   "licence": "Not stated"
+  },
+  "caveat": "Shown when zoomed in.",
+  "count": 7486,
+  "downloadedAt": "2026-09-28T12:46:47.073631+00:00"
+ },
+ {
+  "id": "streetlights",
+  "group": "other",
+  "kind": "fill",
+  "label": "Streetlights per km of road",
+  "source": {
+   "name": "BBMP via OpenCity (streetlight counts, 2015 ward map, ward road lengths)",
+   "url": "https://data.opencity.in/dataset/bengaluru-streetlights",
+   "licence": "Not stated"
+  },
+  "caveat": "Count of installed streetlights per ward (198-ward map), undated; not whether they work or where on the road they are.",
+  "count": 198,
+  "downloadedAt": "2026-09-28T12:46:47.073631+00:00"
+ }
+]
